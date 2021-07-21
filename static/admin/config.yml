@@ -5,7 +5,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-collections:
+collections: [
   - name: "blog"
     label: "Blog"
     folder: "src/blog"
@@ -21,3 +21,4 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+]
