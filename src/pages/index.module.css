@@ -1,11 +1,12 @@
 #hero {
-  background: url('/latte.jpg');
+  background: url("/logo.png");
   background-size: cover;
   height: 35rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 125rem;
 }
 
 #hero h1 {

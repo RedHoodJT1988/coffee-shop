@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { graphql, useStaticQuery } from 'gatsby';
 import BlogList from '../components/BlogList';
 import Layout from '../components/Layout';
@@ -18,7 +19,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <div id={styles.hero}>
-        <h1>{data.site.siteMetadata.title}</h1>
+        <h1><Link to="/">{data.site.siteMetadata.title}</Link></h1>
       </div>
       <BlogList />
     </Layout>
